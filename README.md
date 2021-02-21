@@ -6,9 +6,15 @@ The code for our TPAMI 2020 paper:  Interpreting Image Classifiers by Generating
 
 First, download the ImageNet dataset and set corresponding paths. 
 
-Then, use the test function in ``model.py'' to load the model and explain the decision for test data. 
+In configure.py, the configurations can be modified. 
 
-You need to modify the data path in data reader, word2vec path in helper, and other settings in the model.  
+The build_imagenet_data.py and data_input.py files provide interface for data prepropossing and data loading. 
+
+The network.py defines the architectures of our model, including the G and D. 
+
+The model.py file include model training and testing. 
+
+In visual folder, we provide code to perform several comparing methods, such as gradients, CAM, guidedBP and IG. 
 
 Reference
 ---------
