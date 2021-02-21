@@ -4,7 +4,7 @@ The code for our TPAMI 2020 paper:  Interpreting Image Classifiers by Generating
 
 ## How to use our code
 
-First, train a text classifier using the train function in ``model.py''. 
+First, download the ImageNet dataset and set corresponding paths. 
 
 Then, use the test function in ``model.py'' to load the model and explain the decision for test data. 
 
